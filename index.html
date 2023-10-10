@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Графики и таблицы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<div class="table-container">
+    <p class="table-container-text">Таблица 1</p>
+  <table class="editable-table" id="table1">
+    <thead>
+    <tr>
+      <th>X</th>
+      <th>Y</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <button id="addRow">Add</button>
+</div>
+<div class="table-container">
+    <p class="table-container-text">Таблица 2</p>
+  <table class="editable-table" id="table2">
+    <thead>
+    <tr>
+      <th>X</th>
+      <th>Y</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <button id="addRow2">Add</button>
+</div>
+<div class="table-container">
+    <p class="table-container-text">Таблица 3</p>
+  <table class="result-table" id="table3">
+    <thead>
+    <tr>
+      <th>X</th>
+      <th>Y</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <button id="calculate">Calculate</button>
+</div>
+
+<div class="graph-container">
+  <p class="graph-container-text">График 1</p>
+  <canvas id="chart1" width="400" height="300"></canvas>
+</div>
+<div class="graph-container">
+    <p class="graph-container-text">График 2</p>
+  <canvas id="chart2" width="400" height="300"></canvas>
+</div>
+<div class="graph-container">
+    <p class="graph-container-text">График 3</p>
+  <canvas id="chart3" width="400" height="300"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

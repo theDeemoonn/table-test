@@ -1,0 +1,59 @@
+.body {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.graph-container-text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.editable-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.editable-table th, .editable-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.editable-table th {
+    background-color: #f0f0f0;
+}
+
+.result-table th, .result-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.result-table th {
+    background-color: #f0f0f0;
+}
+
+.graph-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+button.delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
