@@ -47,6 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const tbody3 = table3.querySelector("tbody");
     const calculateButton = document.getElementById("calculate");
 
+
+
+
+
+
+
+
     function calculateTable3() {
         const rowsTable1 = tbody1.querySelectorAll("tr");
         const rowsTable2 = tbody2.querySelectorAll("tr");
@@ -347,6 +354,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     drawChart3();
-    
 
+
+
+
+    calculateButton.addEventListener('click', function () {
+        const message = "При нажатии ESC, графики возвращаются в дефолтное положение"
+        setTimeout(function () {
+            alert(message);
+        }, 3000);
+
+    });
 });
